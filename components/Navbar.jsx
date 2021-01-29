@@ -12,19 +12,29 @@ const Navbar = () => {
   const color = useColorModeValue("gray.800", "white");
   const { toggleColorMode } = useColorMode();
   return (
-    <Box w="full" mx="10px" height="50px">
-      <Stack
-        px={{ base: 2, md: 0 }}
-        h="full"
-        m="auto"
-        maxW={[null, null, "2xl", "5xl"]}
-        direction="row"
-        justifyContent="space-between"
-        alignItems="center"
-      >
+    <Box 
+      w="full"
+      position="fixed"
+      top
+      zIndex={1}
+      p={3}
+      px={{ default: 4, lg: 5 }}
+      d="flex"
+      alignItems="center"
+      justifyContent="space-between">
+      <Stack direction="row" spacing={5}>
         <Link href="/" route fontWeight="bold" color={color}>
-          Hello
+          Alif Naufal
         </Link>
+        <Link href="/project" route fontWeight="bold" color={color}>
+          Project
+        </Link>
+        <Link href="/about" route fontWeight="bold" color={color}>
+          About
+        </Link>
+        
+      </Stack>
+      <Stack direction="row">
         <IconButton
           size="sm"
           aria-label="theme switcher"

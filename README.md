@@ -1,6 +1,6 @@
 Deploy to vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/raisoturu/nextjs-chakra-boilerplate)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/alifnaufalyasin/alifnaufalyasin.github.io)
 
 ## Getting Started
 

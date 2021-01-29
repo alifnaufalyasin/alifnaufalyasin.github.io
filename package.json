@@ -1,8 +1,8 @@
 {
-  "name": "nextjs-chakra-boilerplate",
+  "name": "alifnaufalyasin-web",
   "version": "1.0.0",
-  "description": "A next.js with chakra-ui boilerplate to kickstart your project.",
-  "author": "Anvaqta Tangguh Wisesa <hi@wisesa.dev> (https://wisesa.dev)",
+  "description": "Website profile with nextJs and chakra ui",
+  "author": "M Alif Naufal Yasin (https://alifnaufalyasin.my.id)",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,12 +13,17 @@
   },
   "dependencies": {
     "@chakra-ui/core": "^1.0.0-rc.5",
+    "@chakra-ui/react": "^1.1.6",
+    "@emotion/react": "^11.1.4",
+    "framer-motion": "^3.2.2-rc.1",
     "next": "9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-icons": "^3.11.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-prettier": "^3.1.4",
