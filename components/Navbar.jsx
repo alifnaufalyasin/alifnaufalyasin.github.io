@@ -26,13 +26,6 @@ const Navbar = () => {
         <Link href="/" route fontWeight="bold" color={color}>
           Alif Naufal
         </Link>
-        <Link href="/project" route fontWeight="bold" color={color}>
-          Project
-        </Link>
-        <Link href="/about" route fontWeight="bold" color={color}>
-          About
-        </Link>
-        
       </Stack>
       <Stack direction="row">
         <IconButton
