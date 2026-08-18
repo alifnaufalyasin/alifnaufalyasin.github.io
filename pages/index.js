@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Main from "@/components/Main";
-import Banner from "../components/Banner"
+import Banner from "@/components/Banner";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner/>
+      <Experience/>
     </Main>
   );
 }
