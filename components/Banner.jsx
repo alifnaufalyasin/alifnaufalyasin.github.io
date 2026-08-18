@@ -51,21 +51,19 @@ const Banner = () => {
       m="auto"
       py="50px"
       textAlign="center"
-      w="80vw"
-      h="90vh"
-      borderRadius="50"
-      color={textColor}
+      w="90vw"
+      flexDirection={{ base: "column", lg: "row" }}
       alignItems="center"
       justifyContent="space-between"
     >
-      <Box w="50%" >
-        <Text fontSize="lg" color={textColor} textAlign="left"> 
+      <Box w={{ base: "100%", lg: "50%" }} px={{ base: 4, lg: 0 }}>
+        <Text fontSize="lg" color={textColor} textAlign={{ base: "center", lg: "left" }}> 
           Hi, I’m Alif, a Back-end Developer at Pintu based in Jakarta. I work with REST APIs, SQL, and databases, and I’m interested in web technologies and machine learning. I’ve built Line chatbots and backend services with ExpressJs and have experience across multiple engineering and teaching roles.
         </Text>
         <Stack
             direction="row"
             mt={4}
-            justifyContent={{ default: "center", lg: "unset" }}
+            justifyContent={{ base: "center", lg: "unset" }}
           >
             {links.map((item, idx) => {
               return (
@@ -86,7 +84,7 @@ const Banner = () => {
             })}
           </Stack>
       </Box>
-      <Stack>
+      <Stack w={{ base: "100%", lg: "auto" }} alignItems="center">
         <MotionImage
           whileHover={{ scale: 1.05 }}
           whileTap={{
@@ -97,14 +95,14 @@ const Banner = () => {
           src="/assets/images/alifnaufal.png"
           fallback={require('../public/assets/images/alifnaufal.png?webp')}
           alt="foto saya" 
-          h="50vh" 
+          h={{ base: "40vh", lg: "50vh" }}
+          maxW="100%"
+          objectFit="contain"
         />
         <Text fontSize="xl">
           M Alif Naufal Yasin
         </Text>
       </Stack>
-      
-      
     </MotionFlex>
   );
 };
