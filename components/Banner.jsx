@@ -60,7 +60,7 @@ const Banner = () => {
     >
       <Box w="50%" >
         <Text fontSize="lg" color={textColor} textAlign="left"> 
-          Hi, I’m Alif, Student of computer science From Telkom University. I’m interest with Web Technologies and some machine learning. I have experience with ExpressJs for backend and still learning NextJs for frontend. I have experience with Line Chatbot with bottenderJs framework.
+          Hi, I’m Alif, a Back-end Developer at Pintu based in Jakarta. I work with REST APIs, SQL, and databases, and I’m interested in web technologies and machine learning. I’ve built Line chatbots and backend services with ExpressJs and have experience across multiple engineering and teaching roles.
         </Text>
         <Stack
             direction="row"
